@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run 1st workflow
-        uses: harshmittal-cyber/composite2work/.github/workflows/blank2.yml@main
+        uses: ./.github/workflows/blank.yml
