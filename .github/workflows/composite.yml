@@ -11,6 +11,7 @@ jobs:
   composite-job3:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Run 1st workflow
-        uses: ./.github/workflows/blank.yml@main
+      - name: action checkout
+        uses: actions/checkout@v2
+      - name: call local action
+        uses: ./.github/workflows/blank.yml
