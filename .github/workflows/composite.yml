@@ -8,3 +8,8 @@ jobs:
     uses: ./.github/workflows/blank.yml
   composite-job2:
     uses: harshmittal-cyber/composite2work/.github/workflows/blank2.yml@main
+  composite-job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run 1st workflow
+        uses: harshmittal-cyber/composite2work/.github/workflows/blank2.yml@main
