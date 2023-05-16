@@ -3,7 +3,7 @@
 name: Reusable Workflow 1
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   reusable-job1:
