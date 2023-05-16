@@ -9,6 +9,7 @@ jobs:
   reusable-job2:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Step 1
         run: echo "This is Step 1 of Reusable Workflow 2"
 
